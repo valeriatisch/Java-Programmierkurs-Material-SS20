@@ -1,3 +1,5 @@
+package LambdasmitCollections;
+
 public class Auto {
 
     String model, farbe;
@@ -35,7 +37,7 @@ public class Auto {
 
     @Override
     public String toString() {
-        return "Auto{" +
+        return "LambdasmitCollections.Auto{" +
                 "model='" + model + '\'' +
                 ", farbe='" + farbe + '\'' +
                 ", preis=" + preis +

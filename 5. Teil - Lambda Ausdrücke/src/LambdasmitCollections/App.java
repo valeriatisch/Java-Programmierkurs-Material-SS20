@@ -1,3 +1,5 @@
+package LambdasmitCollections;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
@@ -31,7 +33,7 @@ public class App {
         Function<Auto, String> PreisFarbe = (a) -> "Preis: " + a.getPreis() + ", Farbe: " + a.getFarbe();
         String autoString = PreisFarbe.apply(autos.get(2));
         System.out.println();
-        System.out.println("Auto mit Index 2: " + autoString);
+        System.out.println("LambdasmitCollections.Auto mit Index 2: " + autoString);
     }
 
     public static void printPreisspanne(List<Auto> autos){
